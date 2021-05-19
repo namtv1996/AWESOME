@@ -6,5 +6,5 @@ Pull and run command sqlserver images
 docker pull mcr.microsoft.com/mssql/server 
 ```
 ```power shell
-docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=Ichiba12345@" -p 1433:1433 --name sql1 -d mcr.microsoft.com/mssql/server
+docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=Abc123456@" -p 1433:1433 --name sql1 -d mcr.microsoft.com/mssql/server
 ```
